@@ -6,9 +6,9 @@ var anni = prompt("Quanti anni hai?")
 var numeroKm = prompt("quanti kilometri devi percorrere?")
 
 if (anni < 18) {
-  getElementById("ride").innerHTML = "Il costo della tua corsa è di " + kmMinorenni*numeroKm;
+  document.getElementById("ride").innerHTML = "Il costo della tua corsa è di " + kmMinorenni*numeroKm;
 } else if (anni > 65) {
-    getElementById("ride").innerHTML = "Il costo della tua corsa è di " + kmOver65*numeroKm;
+    document.getElementById("ride").innerHTML = "Il costo della tua corsa è di " + kmOver65*numeroKm;
 } else {
-  getElementById("ride").innerHTML = "Il costo della tua corsa è di " + km*numeroKm;
+  document.getElementById("ride").innerHTML = "Il costo della tua corsa è di " + km*numeroKm;
 }
