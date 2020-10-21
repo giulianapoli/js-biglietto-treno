@@ -3,8 +3,8 @@ var kmMinorenni = 0.21 - (0.21*0.8)
 var kmOver65 = 0.21 - (0.21*0.6)
 
 
-var anni = prompt("Quanti anni hai?")
-var numeroKm = prompt("quanti kilometri devi percorrere?")
+var anni = parseInt(prompt("Quanti anni hai?"));
+var numeroKm = parseInt(prompt("quanti kilometri devi percorrere?"));
 
 if (anni < 18) {
   document.getElementById("ride").innerHTML = "Il costo della tua corsa è di " +
